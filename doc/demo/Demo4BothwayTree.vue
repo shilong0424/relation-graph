@@ -109,7 +109,7 @@ export default {
           { 'from': 'R-b', 'to': 'a' }, { 'from': 'R-b-1', 'to': 'R-b' }, { 'from': 'R-b-2', 'to': 'R-b' }, { 'from': 'R-b-3', 'to': 'R-b' },
           { 'from': 'R-c', 'to': 'a' }, { 'from': 'R-c-1', 'to': 'R-c' }, { 'from': 'R-c-2', 'to': 'R-c' },
           //    为了让节点显示在左侧，比必须让关系数据是这样："节点--->根节点："，但如果你还是想让关系的箭头从根节点指向左侧节点，你可以使用isReverse属性，这个属性可以让关系箭头朝反方向指
-          { 'from': 'R-d', 'to': 'a', isReverse: true }, { 'from': 'R-d-1', 'to': 'R-d', isReverse: true }, { 'from': 'R-d-2', 'to': 'R-d', isReverse: true }, { 'from': 'R-d-3', 'to': 'R-d', isReverse: true },
+          { 'from': 'R-d', 'to': 'a', isReverse: true }, { 'from': 'R-d-1', 'to': 'R-d', isReverse: false }, { 'from': 'R-d-2', 'to': 'R-d', isReverse: false }, { 'from': 'R-d-3', 'to': 'R-d', isReverse: true },
           //根节点右侧的关系数据，注意关系的方向，是从 根节点--->节点：
           { 'from': 'a', 'to': 'b' }, { 'from': 'b', 'to': 'b1' }, { 'from': 'b1', 'to': 'b1-1' }, { 'from': 'b1', 'to': 'b1-2' },
           { 'from': 'b1', 'to': 'b1-3' }, { 'from': 'b1', 'to': 'b1-4' }, { 'from': 'b1', 'to': 'b1-5' }, { 'from': 'b1', 'to': 'b1-6' },
